@@ -1,0 +1,61 @@
+body{
+  background-color: #00ffff;
+}
+#wrapper{
+  width:850px;
+	margin: 0 auto;
+}
+
+#hansoku{
+  clear: both;
+}
+
+#point li{
+  list-style:none;
+	float: left;
+	margin-right: 15%;
+  margin-bottom: 20px ;
+	color: #fff;
+	font-weight: bold;
+	padding: 5px 10px;
+	cursor: pointer;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+	background: #666;
+}
+
+
+.all{
+  width: 200px;
+  height:200px;
+  margin:20px;
+  color: #fff;
+  float:left;
+}
+.one{
+  background-color: #f00;
+}
+.tow{
+  background-color: #00f
+}
+
+@media (max-width:670px) {
+  .all{
+    width:16mm;
+    height:16mm;
+    margin:10mm;
+    color: #fff;
+    float:left;
+  }
+}
+
+/*@media (max-width:670px) {
+  .all{
+    width:200px;
+    height:200px;
+    margin:20px;
+    color: #fff;
+    float:left;
+  }
+}*/
